@@ -1,0 +1,5 @@
+config.h
+patches/
+*.o
+dmenu
+stest
