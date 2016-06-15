@@ -4,7 +4,6 @@ dmenu \- dynamic menu
 .SH SYNOPSIS
 .B dmenu
 .RB [ \-b ]
-.RB [ \-f ]
 .RB [ \-i ]
 .RB [ \-r ]
 .RB [ \-n ]
@@ -42,10 +41,6 @@ which lists programs in the user's $PATH and runs the result in their $SHELL.
 .TP
 .B \-b
 dmenu appears at the bottom of the screen.
-.TP
-.B \-f
-dmenu grabs the keyboard before reading stdin.  This is faster, but will lock up
-X until stdin reaches end\-of\-file.
 .TP
 .B \-i
 dmenu matches menu items case insensitively.
